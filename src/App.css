@@ -1,0 +1,12 @@
+.wrapper {
+  width: 1210px;
+  margin: 0 auto;
+  position: relative;
+}
+
+.items {
+  display: flex;
+  flex-wrap: wrap;
+  position: relative;
+  margin-top: 20px;
+}

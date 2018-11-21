@@ -1,0 +1,64 @@
+.item-solo {
+    border-radius: 5px; 
+    position: relative;
+    padding: 20px;
+    border: 1px solid #ccc;
+    display: flex;
+}
+
+.item-text {
+    margin-left: 30px;
+}
+
+h2 {
+    text-overflow: ellipsis;
+    overflow: hidden;
+    white-space: nowrap;
+    margin-bottom: 5px;
+}
+
+.star {
+    font-size: 14px;
+}
+
+.descr {
+    margin-top: 30px;
+}
+
+.id {
+    position: absolute;
+    top: 10px;
+    left: 15px;
+}
+
+.solo-img {
+    max-height: 400px;
+    width: auto;
+}
+
+.price-solo {
+    margin-top: 40px;
+    display :flex;
+    align-items: center;
+    flex-direction: row-reverse;
+    justify-content: flex-end;
+}
+
+.new_price-solo {
+    font-weight: 700;
+    color: #c62233;
+    font-size: 32px;
+    margin-left: 20px;
+}
+.old_price-solo {
+    font-size: 20px;
+    font-weight: 400;
+    text-decoration: line-through;
+    color: #000;
+    margin-left: 10px;
+}
+
+.sale {
+    color: #c62233;
+    font-size: 14px;
+}

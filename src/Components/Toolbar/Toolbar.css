@@ -1,0 +1,83 @@
+.toolbar {
+    display: flex;
+    align-items: center;
+    padding: 25px 0;
+    line-height: 1;
+}
+
+.price-filter {
+    margin-right: auto;
+    display: flex;
+    align-items: center;
+}
+
+.btn-filter {
+    padding: 6px 10px;
+    border-radius: 3px;
+    border: 1px solid #ccc;
+    outline: none;
+    margin: 0 10px;
+    max-width: 60px;
+}
+
+.btn_price-filter {
+    border: 1px solid #ccc;
+    background-color: #fff;
+    padding: 6px 10px;
+    border-radius: 3px;
+    margin-left: 10px;
+    cursor: pointer;
+    transition: all 0.2s ease;
+}
+
+.btn_price-filter:hover {
+    background-color: #ccc;
+}
+
+.btns {
+    position: relative;
+}
+
+.btn-list {
+    display: none;
+    flex-direction: column;
+    position: absolute;
+    list-style: none;
+    top: 100%;
+    right: 0;
+    z-index: 10;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    min-width: 160px;
+    font-size: 16px;
+    background-color: #fff;
+    padding: 5px 0;
+}
+
+.btn {
+    font-size: 16px;
+    border: none;
+    background-color: transparent;
+    cursor: pointer;
+}
+.btn_sort {
+    margin-left: 10px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    padding: 6px 15px 10px 15px;
+}
+
+.btn-list_sort {
+    padding: 5px 10px;
+    display: inline-block;
+    width: 100%;
+    cursor: pointer;
+}
+
+.btn-list_sort:hover {
+    background-color: rgba(145, 242, 255, 0.205);
+}
+
+.open {
+    display: flex;
+}

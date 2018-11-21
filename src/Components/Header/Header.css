@@ -1,0 +1,22 @@
+.header {
+    display: flex;
+    justify-content: space-between;
+    padding: 20px 0;
+}
+
+.logo {
+    margin: 0 10px;
+    font-size: 30px;
+    font-family: 'Open-sans', sans-serif;
+    text-decoration: none;
+    color: blue;
+}
+
+.search-input {
+    padding: 6px 10px;
+    border-radius: 3px;
+    border: 1px solid #ccc;
+    outline: none;
+    min-width: 250px;
+    margin-left: 10px;
+}
